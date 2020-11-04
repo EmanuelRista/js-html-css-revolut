@@ -28,11 +28,11 @@ ul {
   background: #ccc;
   transform-origin: top;
   display: none;
-  /* transform: perspective(1000px) rotateX(-90deg); /* WARNING: questo metodo della prospettiva è interessante! Trovato sul web */ */
+  transform: perspective(1000px) rotateX(-90deg);
   transition: 0.5s;
 }
 ul.active {
-  transform: perspective(1000px) rotateX(0deg);/* WARNING: quando "active" passa da -90degree a 0 degree, rendendolo visibile */
+  transform: perspective(1000px) rotateX(0deg);
   display: block;
 }
 ul li {
