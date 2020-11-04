@@ -20,7 +20,10 @@ a.droppy {
   cursor: pointer;
   color: #fff;
 }
-ul {
+.has-dropdown {
+  position: relative;
+}
+.mydropdown {
   position: absolute;
   margin: 0;
   padding: 0;
@@ -31,7 +34,7 @@ ul {
   /* transform: perspective(1000px) rotateX(-90deg); */
   /* transition: 1s; */
 }
-ul.active {
+.mydropdown.active {
   /* transform: perspective(1000px) rotateX(0deg); */
   display: block;
 }
