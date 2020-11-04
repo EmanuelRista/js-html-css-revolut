@@ -26,13 +26,13 @@ ul {
   padding: 0;
   width: 100%;
   background: #ccc;
-  transform-origin: top;
+  /* transform-origin: top; */
   display: none;
-  transform: perspective(1000px) rotateX(-90deg);
-  transition: 0.5s;
+  /* transform: perspective(1000px) rotateX(-90deg); */
+  /* transition: 1s; */
 }
 ul.active {
-  transform: perspective(1000px) rotateX(0deg);
+  /* transform: perspective(1000px) rotateX(0deg); */
   display: block;
 }
 ul li {
