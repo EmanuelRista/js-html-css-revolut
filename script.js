@@ -1,5 +1,5 @@
 $(document).ready(function() {
   $("a.droppy").click(function() {
-    $(this).children().toggleClass("active")
+    $(this).siblings().toggleClass("active")
   })
 })
